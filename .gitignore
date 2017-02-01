@@ -1,0 +1,4 @@
+# exclude output files except pdf.
+*.aux
+*.log
+*.out
