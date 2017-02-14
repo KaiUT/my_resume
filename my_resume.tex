@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{my_resume} % Use the custom resume.cls style
+
+\usepackage[left=0.7cm,top=0.7cm,right=0.9cm,bottom=0.7cm]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\renewcommand{\familydefault}{\sfdefault}
+\name{Kai Liu} % Your name
+\address{\href{mailto:kai.liu@utexas.edu}{kai.liu@utexas.edu}
+  \textbullet{} {512.917.6781} \textbullet{}
+  GitHub://\href{https://github.com/KaiUT}{KaiUT} \textbullet{}
+  LinkedIn://\href{https://www.linkedin.com/in/kai-liu-27200774}{Kai Liu}
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	PROFILE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Profile}
+% \begin{rSubsection}{ }{}{ }
+\renewcommand\labelitemi{$\cdot$}
+\begin{itemize}
+  \item Ph.D in Computational Biology (expected August 2018);
+  \vspace{-1.7em}\\
+  \item Ample Skills in data science:
+  \vspace{-1.7em}\\
+    \begin{itemize}
+      \item Experience in data mining, machine learning, statistical inference,
+        and big data analysis;
+      \vspace{-1.7em}\\
+      \item Comprehensive technical/computing skills includes Python, R, Unix,
+        Vim, Git, C++;
+      \vspace{-1.7em}\\
+    \end{itemize}
+  \item Excellent problem solving skills in both independent and team
+    environments;
+  \vspace{-1.7em}\\
+  \item Skilled presenter of technical material to both technical and
+    non-technical audiences;
+  \vspace{-1.7em}\\
+  \item Quick, thorough and effective learner.
+\end{itemize}
+% \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Ph.D in Computational Biology} {$\diamond$} {\em The University of
+Texas at Austin, Austin, TX} \hfill {Expected August 2018} \\
+% \vspace{0.3em}\\
+{\bf M.S in Microbiology} {$\diamond$} {\em Huazhong Agricultural University,
+Wuhan, China} \hfill {Grad. June 2013} \\
+% \vspace{0.3em}\\
+{\bf B.S in Biotechnology} {$\diamond$} {\em Huazhong Agricultural University,
+Wuhan, China} \hfill {Grad. June 2011}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\begin{rSubsection}{Graduate Research Assistant}{The
+    University of Texas at Austin}{December 2014 - Present}
+  \underline{Developing Biosurveillance App in Python}
+  \item Retrieved and cleaned infectious diseases related data from Google
+    Trends, Wikipedia, WordPress etc;
+  \item Developed an algorithm to detect infectious disease outbreaks using
+    multiple data sources, in collaboration with a mathematician;
+  \item Improving performance and speed of the algorithm;
+  \item Assessing the algorithms on infectious diseases in different regions
+    (using 552 time series data sources);
+  \item Connecting algorithms with the App back-end and front-end, and
+    integrating the App into Cloud Ecosystem, in collaboration with a front-end
+    engineer.
+
+  \underline{Assessed Real-time Zika Risk in the State of Texas}
+  \item Collaborated with other researchers in developing a branching process
+    model framework that captures variation and uncertainty in Zika case
+    reporting, importations, and transmission;
+  \item Applied the framework to assess county-level epidemic risk throughout
+    Texas.
+
+  \underline{Developed Mathematical Models for Infectious Diseases}
+  \item Developed Ordinary Differential Equations frame for infectious diseases
+    eliminating the assumption that all individuals in a population have the
+    same number of contacts, based on models published previously.
+  \item Simulated infectious diseases spreading on contact networks using
+    different algorithms.
+% \item Publication in preparation.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Course Projects
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Course Projects}
+
+\begin{rSubsection}{Denoised GPS Data by Applying Kalman Filter}{}{October
+    2016 - December 2016}
+  \item Implemented Kalman filter in R, and smoothed GPS data collected from a
+  vehicle cruising around campus (814458 samples).
+\end{rSubsection}
+
+\begin{rSubsection}{Predicted Yelp Rating Based on User Review Enhanced
+  Collaborative Filtering}{}{September 2015 - December 2015}
+  \item Developed a new Collaborative Filtering-based method to improve the
+    accuracy of user's rating prediction and solve the sparseness of dataset by
+    combining item's features and user opinions from all reviews;
+  \item Applied the new method to predict user ratings using restaurants dataset
+    from Yelp (5GB). Its performance is 4.23\% better than that of traditional KNN
+    method, and its coverage is 100\%.
+\end{rSubsection}
+
+\begin{rSubsection}{Forecasted Tourism Earnings of United Kingdom}{}{October
+  2015 - December 2015}
+  \item Predicted Tourism Earnings of UK using a dynamic linear
+    regression model and Forward Filtering and Backward Sampling algorithm in
+    R.
+\end{rSubsection}
+
+\begin{rSubsection}{Statistical Modeling}{}{November 2014 - December 2014}
+  \item Analyzed a dataset to determine 1) factors related to 12 month weight
+  loss, and 2) whether an intervention was effective in increasing weight loss by
+  applying both frequentist and Bayesian inference methods.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Skills
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  Statistical Modeling & Regression models {$\cdot$} Time series and
+  dynamic models {$\cdot$} Hypothesis testing and confidence \\
+  & interval {$\cdot$} Data fitting {$\cdot$} Ordinary differential
+  equations {$\cdot$} Network simulation\\
+  Big Data Analysis & Online learning {$\cdot$} Regularization and sparsity in
+  statistical models {$\cdot$} Matrix factorization {$\cdot$}\\
+  & Spatial smoothing {$\cdot$} Principal component analysis and
+  dimensionality reduction\\
+  Data Mining \& Machine Learning & Regression {$\cdot$} Classification
+  {$\cdot$} Clustering {$\cdot$} Frequent Pattern Mining\\
+  Programming & Fluency in Python, R, Git, Unix {$\cdot$} Familiar with Vim,
+  Linux {$\cdot$} Experience in C++,\\
+  & MATLAB, LaTex\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Courses
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Courses}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  Graduate Courses & Data Mining {$\cdot$} Statistical Modeling I
+  {$\cdot$} Statistical Models for Big Data {$\cdot$} Time Series \&
+  Dynamic Models {$\cdot$} \\
+  & Regression Analysis\\
+  MOOC & Machine Learning {$\cdot$} Coding the Matrix: Linear Algebra through Computer
+  Science Applications {$\cdot$} Pattern \\
+  & Discovery in Data Mining {$\cdot$} R Programming {$\cdot$}
+  Getting and Cleaning Data {$\cdot$} Exploratory Data Analysis\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Teaching Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+\begin{rSubsection}{Teaching Assistant}{The University of Texas at
+  Austin}{September 2015 - December 2015}
+\begin{rSubsection}{}{}{September 2014 - December 2014}
+\item Mentored two lab sections (48 students) of an undergraduate genetics
+  course and an undergraduate microbiology course;
+\item Got 4.3/5.0 in both course evaluations.
+\item Prepared lab lectures and lab plans;
+\item Graded quizzes, assignments and exams.
+\end{rSubsection}
+\end{rSubsection}
+\end{rSection}
+
+\end{document}
