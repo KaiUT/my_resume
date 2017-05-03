@@ -58,7 +58,7 @@
   \item Excellent problem solving skills in both independent and team
     environments;
   \vspace{-1.7em}\\
-  \item Skilled presenter of technical material to both technical and
+  \item Skilled presenter of technical materials to both technical and
     non-technical audiences;
   \vspace{-1.7em}\\
   \item Quick, thorough and effective learner.
@@ -72,13 +72,13 @@
 
 \begin{rSection}{Education}
 
-{\bf Ph.D in Computational Biology} {$\diamond$} {\em The University of
+{\bf Ph.D. in Computational Biology} {$\diamond$} {\em The University of
 Texas at Austin, Austin, TX} \hfill {Expected August 2018} \\
 % \vspace{0.3em}\\
-{\bf M.S in Microbiology} {$\diamond$} {\em Huazhong Agricultural University,
+{\bf M.S. in Microbiology} {$\diamond$} {\em Huazhong Agricultural University,
 Wuhan, China} \hfill {Grad. June 2013} \\
 % \vspace{0.3em}\\
-{\bf B.S in Biotechnology} {$\diamond$} {\em Huazhong Agricultural University,
+{\bf B.S. in Biotechnology} {$\diamond$} {\em Huazhong Agricultural University,
 Wuhan, China} \hfill {Grad. June 2011}
 \end{rSection}
 
@@ -88,34 +88,35 @@ Wuhan, China} \hfill {Grad. June 2011}
 
 \begin{rSection}{Research Experience}
 
-\begin{rSubsection}{Graduate Research Assistant}{The
-    University of Texas at Austin}{December 2014 - Present}
-  \underline{Developing Infectious Diseases Surveillance App in Python}
+\begin{rSubsection}{Graduate Research Assistant}{The University of Texas at
+  Austin}{December 2014 - Present}
+  \textbf{Developing Infectious Diseases Surveillance App $|$ Python}
   \item Retrieved and cleaned infectious diseases related data from Google
     Trends, Wikipedia, WordPress etc;
-  \item Developed a regression model and a Multivariate Exponentially Weighted
-    Moving Average(MEWMA) model to detect infectious disease outbreaks using
-    multiple data sources, in collaboration with a mathematician;
-  \item Assessing the algorithms and optimizing data sources on infectious
-    diseases in different regions (using 552 time series data sources);
-  \item Improving performance and speed of the algorithms;
+  \item Developed a \underline{regression model} and a \underline{Multivariate
+      Exponentially Weighted Moving Average (MEWMA)} model to detect infectious
+      disease outbreaks using multiple data sources, in collaboration with a
+      mathematician;
+  \item Optimizing data sources on infectious diseases surveillance in
+    different regions (554 time-series) by combining above models and
+    \underline{stepwise variable selection algorithms};
   \item Connecting algorithms with the App back-end and front-end, and
     integrating the App into Cloud Ecosystem, in collaboration with a front-end
     engineer.
 
-  \underline{Assessed Real-time Zika Risk in the State of Texas}
-  \item Collaborated with other researchers in developing a branching process
-    model framework that captures variation and uncertainty in Zika case
-    reporting, importations, and transmission;
+  \textbf{Assessed Real-time Zika Risk in the State of Texas $|$ R}
+  \item Collaborated with other researchers in developing a \underline{branching
+      process model framework} that captures variation and uncertainty in Zika
+      case reporting, importations, and transmission;
   \item Applied the framework to assess county-level epidemic risk throughout
     Texas.
 
-  \underline{Developed Mathematical Models for Infectious Diseases}
-  \item Developed Ordinary Differential Equations framework for infectious diseases
-    eliminating the assumption that all individuals in a population have the
-    same number of contacts, based on models published previously.
-  \item Simulated infectious diseases spreading on contact networks using
-    multiple algorithms.
+  % \underline{Developed Mathematical Models for Infectious Diseases}
+  % \item Developed Ordinary Differential Equations framework for infectious diseases
+    % eliminating the assumption that all individuals in a population have the
+    % same number of contacts, based on models published previously.
+  % \item Simulated infectious diseases spreading on contact networks using
+    % multiple algorithms.
 % \item Publication in preparation.
 \end{rSubsection}
 \end{rSection}
@@ -124,36 +125,58 @@ Wuhan, China} \hfill {Grad. June 2011}
 % Course Projects
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Course Projects}
+\begin{rSection}{Projects}
 
-\begin{rSubsection}{Denoised GPS Data by Applying Kalman Filter}{}{October
-    2016 - December 2016}
-  \item Implemented Kalman filter in R, and smoothed GPS data collected from a
-  vehicle cruising around campus (814458 samples).
-\end{rSubsection}
+  \begin {rSubsection}{Developing a R Package for Big Data Analysis $|$ R \&
+    Rcpp}{}{}
+  \item Implementing following algorithms in the package: stochastic gradient
+    descent using line search and quasi-Newton methods to determine step size
+    {$\cdot$} the lasso {$\cdot$} the proximal gradient method {$\cdot$}
+    Laplacian smoothing solved by sparse Cholesky/LU, the Gauss-Seidel method,
+    the Jacobi iterative method, and conjugate gradient method {$\cdot$} graph
+    fused lasso solved by Alternating Direction Method of Multipliers (ADMM)
+    {$\cdot$} sparse matrix factorization.
+  \end{rSubsection}
 
-\begin{rSubsection}{Predicted Yelp Rating Based on User Review Enhanced
-  Collaborative Filtering}{}{September 2015 - December 2015}
-  \item Developed a new Collaborative Filtering-based method to improve the
-    accuracy of user's rating prediction and solve the sparseness of dataset by
-    combining item's features and user opinions from all reviews;
-  \item Applied the new method to predict user ratings using restaurants dataset
-    from Yelp ($\sim$10GB). Its performance is 4.23\% better than that of
-    traditional KNN method, and its coverage is 100\%.
-\end{rSubsection}
+  \begin{rSubsection}{Predicted the Direction of Exchange-Traded Fund
+    (ETF) movement $|$ Python}{}{}
+  \item Retrieved nine histrorical ETF sectors data from Yahoo Finance;
+  \item Implemented \underline{Logistic regression}, \underline{Ridge \& Lasso
+    regression}, and \underline{Artificial Neural Network} to predict the
+    direction of ETF movement;
+  \item Achieved an \underline{accuracy of 55\% $\sim$ 60\%} for predicting
+    nine ETF sectors movement; and the trading strategy based on my prediction
+    \underline{outperforms} baseline strategies.
+  \end{rSubsection}
 
-\begin{rSubsection}{Forecasted Tourism Earnings of United Kingdom}{}{October
-  2015 - December 2015}
-  \item Predicted Tourism Earnings of UK using a dynamic linear
-    regression model and Forward Filtering and Backward Sampling algorithm.
-\end{rSubsection}
+  \begin{rSubsection}{Denoised GPS Data by Applying Kalman Filter $|$ R}{}{}
+  \item Implemented \underline{Kalman filter}, and smoothed GPS data collected from
+    a vehicle cruising around campus (814458 samples).
+  \end{rSubsection}
 
-\begin{rSubsection}{Statistical Modeling}{}{November 2014 - December 2014}
-  \item Applied a regression model to a dataset to determine 1) factors related
-  to 12 month weight loss, and 2) whether an intervention was effective in
-  increasing weight loss by using both frequentist and Bayesian inference
-  methods.
-\end{rSubsection}
+  \begin{rSubsection}{Predicted Yelp Rating Based on User Review Enhanced
+    Collaborative Filtering $|$ R}{}{}
+  \item Extracted user opinions from restaurants dataset from Yelp ($\sim$10GB)
+    using \underline{Stanford coreNLP tool};
+  \item Developed a \underline{new Collaborative Filtering-based method} to
+    improve the accuracy of user's rating prediction and solve the sparseness
+    of dataset by combining item's features and user opinions from all reviews;
+  \item \underline{Improved the prediction accuracy by 4.23\%} compared to the
+    traditional KNN method, and the \underline{coverage is 100\%}.
+  \end{rSubsection}
+
+% \begin{rSubsection}{Forecasted Tourism Earnings of United Kingdom}{}{October
+  % 2015 - December 2015}
+  % \item Predicted Tourism Earnings of UK using a dynamic linear
+    % regression model and Forward Filtering and Backward Sampling algorithm.
+% \end{rSubsection}
+
+% \begin{rSubsection}{Statistical Modeling}{}{November 2014 - December 2014}
+  % \item Applied a regression model to a dataset to determine 1) factors related
+  % to 12 month weight loss, and 2) whether an intervention was effective in
+  % increasing weight loss by using both frequentist and Bayesian inference
+  % methods.
+% \end{rSubsection}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -163,19 +186,15 @@ Wuhan, China} \hfill {Grad. June 2011}
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-  Statistical Modeling & Regression models {$\cdot$} Time series and
-  dynamic models {$\cdot$} Hypothesis testing and confidence \\
-  & interval {$\cdot$} Data fitting {$\cdot$} Ordinary differential
-  equations {$\cdot$} Network simulation\\
-  Big Data Analysis & Online learning {$\cdot$} Regularization and sparsity in
-  statistical models {$\cdot$} Matrix factorization {$\cdot$}\\
-  & Spatial smoothing {$\cdot$} Principal component analysis and
-  dimensionality reduction\\
-  Data Mining \& Machine Learning & Regression {$\cdot$} Classification
-  {$\cdot$} Clustering {$\cdot$} Frequent Pattern Mining\\
   Programming & Fluency in Python(NumPy, SciPy, Matplotlib, pandas,
   scikit-learn), R, Git {$\cdot$} Familiar with \\
   & MATLAB, Linux, LaTex {$\cdot$} Experience in C++, SQL, Hadoop, Spark\\
+  Data Mining \& Machine Learning & Regression with regularization {$\cdot$}
+  Neural Network {$\cdot$} Support Vector Machine {$\cdot$} Ensemble\\
+  & Methods {$\cdot$} Hidden Markov Model {$\cdot$} Clustering {$\cdot$} Frequent Pattern Mining\\
+  Statistical Modeling & Regression models {$\cdot$} Time series and dynamic
+  models {$\cdot$} Ordinary differential equations \\
+  & {$\cdot$} Network simulation\\
 \end{tabular}
 \end{rSection}
 
