@@ -28,9 +28,13 @@
 \renewcommand{\familydefault}{\sfdefault}
 \name{Kai Liu} % Your name
 \address{\href{mailto:kai.liu@utexas.edu}{kai.liu@utexas.edu}
-  \textbullet{} {512.917.6781} \textbullet{}
-  GitHub://\href{https://github.com/KaiUT}{KaiUT} \textbullet{}
-  LinkedIn://\href{https://www.linkedin.com/in/kai-liu-27200774}{Kai Liu}
+  \textbullet{} {512.917.6781}
+}
+
+\address{
+  GitHub: \href{https://github.com/kaiUT}{github.com/KaiUT} \textbullet{}
+  LinkedIn: \href{https://www.linkedin.com/in/kai-liu-utaustin}
+  {www.linkedin.com/in/kai-liu-utaustin}
 }
 
 \begin{document}
@@ -40,30 +44,12 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Profile}
-% \begin{rSubsection}{ }{}{ }
-\renewcommand\labelitemi{$\cdot$}
-\begin{itemize}
-  \item Ph.D. in Computational Biology (expected August 2018);
-  \vspace{-1.7em}\\
-  \item Ample Skills in data science:
-  \vspace{-1.7em}\\
-    \begin{itemize}
-      \item Experience in data mining, machine learning, statistical inference,
-        big data analysis, and natural language processing;
-      \vspace{-1.7em}\\
-      \item Comprehensive technical/computing skills including Python, R, Git,
-        C++, SQL, Hadoop, Spark;
-      \vspace{-1.7em}\\
-    \end{itemize}
-  \item Excellent problem solving skills in both independent and team
-    environments;
-  \vspace{-1.7em}\\
-  \item Skilled presenter of technical materials to both technical and
-    non-technical audiences;
-  \vspace{-1.7em}\\
-  \item Quick, thorough and effective learner.
-\end{itemize}
-% \end{rSubsection}
+  Ph.D. in Computational Biology (expected December 2018). Solid skills in
+  machine learning, statistical inference. Comprehensive computing skills
+  including Python, R, SQL, Hadoop, Spark, TensorFlow. Excellent problem solving skills in
+  both independent and team environments. Skilled presenter of technical
+  materials to both technical and non-technical audiences. Quick, thorough and
+  effective learner.
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -73,7 +59,7 @@
 \begin{rSection}{Education}
 
 {\bf Ph.D. in Computational Biology} {$\diamond$} {\em The University of
-Texas at Austin, Austin, TX} \hfill {Expected August 2018} \\
+Texas at Austin, Austin, TX} \hfill {Expected December 2018} \\
 % \vspace{0.3em}\\
 {\bf M.S. in Microbiology} {$\diamond$} {\em Huazhong Agricultural University,
 Wuhan, China} \hfill {Grad. June 2013} \\
@@ -83,40 +69,37 @@ Wuhan, China} \hfill {Grad. June 2011}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	RESEARCH EXPERIENCE SECTION
+%	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Experience}
+\begin{rSection}{Work Experience}
 
   \begin{rSubsection}{Machine Learning Intern}{QuintilesIMS, Plymouth Meeting,
     PA}{June 2017 - August 2017}
 
-  \item[] \textbf{Predict Quality of Investigators in Future Clinical Trials $|$ Python}
-  \item Fitted theoretical distributions to 6 historical Key Risk Indicators
-     (KRIs) to identify outliers per clinical trial per indication;
-  \item Built multiple machine learning models to predict each KRI of
-     investigators in a future study per indication;
-  \item Did feature engineering to select features in prediction models;
-  \item Combined each KRI to calculate a tier for each investigator;
-  \item Evaluated the performance of each model using multiple metrics.
+  \item[] \textbf{Predicted Quality of Investigators in Future Clinical Trials
+    $|$ Python, Spark}
+  \item Predicted outliers of investigators per Key Risk Indicator using
+    \underline{distribution based approach};
+  \item Built multiple machine learning models (\underline{Lasso Regression, Neural
+    Network, Random Forests}) to predict the quality of investigators in a
+    future study, which is one of the core projects in the investigator
+    recommender system.
   \end{rSubsection}
 
   \begin{rSubsection}{Graduate Research Assistant}{The University of Texas at
     Austin}{December 2014 - Present}
 
-  \item[] \textbf{Developing Infectious Diseases Surveillance App $|$ Python}
-  \item Retrieved and cleaned infectious diseases related data from Google
-    Trends, Wikipedia, WordPress etc;
+  \item[] \textbf{Developed Infectious Diseases Surveillance App $|$ Python}
   \item Developed a \underline{regression model} and a \underline{Multivariate
-      Exponentially Weighted Moving Average (MEWMA)} model to detect infectious
-      disease outbreaks using multiple data sources, in collaboration with a
-      mathematician;
-  \item Optimizing data sources on infectious diseases surveillance in
-    different regions (554 time-series) by combining above models and
-    \underline{stepwise variable selection algorithms};
-  \item Connecting algorithms with the App back-end and front-end, and
-    integrating the App into Cloud Ecosystem, in collaboration with a front-end
-    engineer.
+      Exponentially Weighted Moving Average (MEWMA)} model to detect emerging
+      outbreaks with an accuracy of 0.9;
+  \item Combined above models with \underline{stepwise variable selection
+    algorithms} to select best data sources for infectious diseases
+    surveillance (more than 400 data sources in total);
+  \item Built up data pipeline to automate the process of retrieving and
+    cleaning data from CDC, BSVE, Google Trends, Wikipedia, Twitter etc;
+    integrated the App into Cloud Ecosystem.
 
   \item[] \textbf{Assessed Real-time Zika Risk in the State of Texas $|$ R}
   \item Collaborated with other researchers in developing a \underline{branching
@@ -163,10 +146,10 @@ Wuhan, China} \hfill {Grad. June 2011}
     \underline{outperforms} baseline strategies.
   \end{rSubsection}
 
-  \begin{rSubsection}{Denoised GPS Data by Applying Kalman Filter $|$ R}{}{}
-  \item Implemented \underline{Kalman filter}, and smoothed GPS data collected from
-    a vehicle cruising around campus (814458 samples).
-  \end{rSubsection}
+  % \begin{rSubsection}{Denoised GPS Data by Applying Kalman Filter $|$ R}{}{}
+  % \item Implemented \underline{Kalman filter}, and smoothed GPS data collected from
+    % a vehicle cruising around campus (814458 samples).
+  % \end{rSubsection}
 
   \begin{rSubsection}{Predicted Yelp Rating Based on User Review Enhanced
     Collaborative Filtering $|$ R}{}{}
@@ -197,20 +180,18 @@ Wuhan, China} \hfill {Grad. June 2011}
 % Skills
 %----------------------------------------------------------------------------------------
 
-% \begin{rSection}{Skills}
+\begin{rSection}{Skills}
 
-% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-  % Programming & Fluency in Python(NumPy, SciPy, Matplotlib, pandas,
-  % scikit-learn), R, Git {$\cdot$} Familiar with \\
-  % & MATLAB, Linux, LaTex {$\cdot$} Experience in C++, SQL, Hadoop, Spark\\
-  % Data Mining \& Machine Learning & Regression with regularization {$\cdot$}
-  % Neural Network {$\cdot$} Support Vector Machine {$\cdot$} Ensemble\\
-  % & Methods {$\cdot$} Hidden Markov Model {$\cdot$} Clustering {$\cdot$} Frequent Pattern Mining\\
-  % Statistical Modeling & Regression models {$\cdot$} Time series and dynamic
-  % models {$\cdot$} Ordinary differential equations \\
-  % & {$\cdot$} Model fitting {$\cdot$} Network simulation\\
-% \end{tabular}
-% \end{rSection}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  Programming & Fluency in Python(NumPy, SciPy, pandas, scikit-learn),
+  R, Git {$\cdot$} Familiar with MATLAB, Linux, LaTex {$\cdot$}\\
+  & Experience in SQL, Hadoop, Spark, TensorFlow, C++ \\
+  Machine Learning & Deep Neural Network {$\cdot$} Regression with regularization {$\cdot$}
+  Support Vector Machine {$\cdot$} Random Forests {$\cdot$} Hidden\\
+  & Markov Model {$\cdot$} Clustering {$\cdot$} Time series and dynamic
+  models {$\cdot$} Frequent Pattern Mining \\
+\end{tabular}
+\end{rSection}
 
 % %----------------------------------------------------------------------------------------
 % % Courses
