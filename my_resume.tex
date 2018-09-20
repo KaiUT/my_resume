@@ -72,6 +72,26 @@ Wuhan, China} \hfill {Grad. June 2011}
 
 \begin{rSection}{Work Experience}
 
+  \begin{rSubsection}{Applied Scientist Intern}{Zillow, Seattle,
+    WA}{May 2018 - September 2018}
+
+  \item[] \textbf{Improved Recommendation Diversity in Real Estate Recommender
+      System
+    $|$ Python, Spark, AWS}
+  \item Categorized all listings across the US on Zillow using  
+    \underline{Bisecting Kmeans algorithm};
+  \item Implemented and extended a \underline{personalized diversity algorithm}
+    published on RecSys'16 from scratch using \underline{PySpark};
+  \item \underline{Improved} the diversity of recommendation by \underline{at
+    least 30\%} in offline evaluation, while maintaining comparable accuracy
+    (NDCG, recall, precision) of recommendation, compared with the current
+    recommendation model in production;
+  % \item The performance of the personalized diversity model is robust on a
+    % 7-days time scale. 
+  \item Integrated the algorithm into a in-house package used by applied
+    scientists.
+  \end{rSubsection}
+
   \begin{rSubsection}{Machine Learning Intern}{QuintilesIMS, Plymouth Meeting,
     PA}{June 2017 - August 2017}
 
@@ -87,18 +107,19 @@ Wuhan, China} \hfill {Grad. June 2011}
 
   \begin{rSubsection}{Graduate Research Assistant}{The University of Texas at
     Austin, Austin, TX}{December 2014 - Present}
-  \item[] \textbf{Developed a Supervised Anomaly Detection Model for Infectious
+  \item[] \textbf{Developed a Supervised Anomaly Detection Algorithm for Infectious
     Disease Surveillance $|$ Python}
-    \item Adapted a \underline{Multivariate Exponentially Weighted Moving Average
-      (MEWMA)} method in biosurveillance to a supervised model;
-    \item Combined the model with \underline{stepwise variable selection
-      algorithms} to optimize data source selection in infectious diseases
-      surveillance;
-    \item Retrospectively detected seasonal influenza outbreaks in US with an
-      \underline{accuracy 0.9} using an optimal combination of data sources.
-      % (more than 400 time series in total).
+    \item Adapted a statistical anomaly detection method \underline{Multivariate
+      Exponentially Weighted Moving Average (MEWMA)} to a supervised model;
+    \item Applied \underline{genetic algorithm} to optimize parameters of the
+      above model;
+    \item Developed novel metrics to evaluate the performance of the model;
+    \item Applied \underline{stepwise variable selection algorithms} to
+      optimize the selection of time series predictors in anomaly detection;
+    \item Detected flu outbreaks in the US with an \underline{accuracy
+      0.9} using the above model with an optimal combination of time series.
 \vspace{1mm}
-  \item[] \textbf{Developed Infectious Diseases Surveillance App $|$ Python}
+  \item[] \textbf{Developed Infectious Diseases Surveillance App $|$ Python, AWS}
     \item Implemented a \underline{regression model} and the
       \underline{supervised MEWMA model} in the application;
     \item Built up data pipeline to automate the process of retrieving and
@@ -131,10 +152,10 @@ Wuhan, China} \hfill {Grad. June 2011}
   \begin{itemize}
     \setlength\itemsep{-1.6em}
     \setlength\leftskip{-1.2em}
-    \item[$\cdot$] {\bf Liu K}, Miller JC, Meyers LA. Effects of Directed and Clustered Contact
-    Patterns on Infectious Disease Dynamics. {\em In preparation}.\\
-    \item[$\cdot$] {\bf Liu K}, Srinivasan R, Ertem Z, Meyers LA. Optimizing Early Detection
-    of Emerging Outbreaks. {\em Submitted}.\\
+    % \item[$\cdot$] {\bf Liu K}, Miller JC, Meyers LA. Effects of Directed and Clustered Contact
+    % Patterns on Infectious Disease Dynamics. {\em In preparation}.\\
+    \item[$\cdot$] {\bf Liu K}, Srinivasan R, Meyers LA. Early Detection of
+      Seasonal Influenza in the United States. {\em Under review}.\\
     \item[$\cdot$] Castro LC*, Fox SJ*, Chen X, {\bf Liu K}, Bellan SE, Dimitrov NB, Galvani AP,
     Meyers LA. Assessing Real-time Zika Risk in the United States. {\em BMC
     Infectious Diseases}. DOI: 10.1186/s12879-017-2394-9.
@@ -146,24 +167,24 @@ Wuhan, China} \hfill {Grad. June 2011}
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Personal Projects}
-  \begin{rSubsection}{Being Involved in Building an Open Source Software to
-      Detect Lung Cancer $|$ Python, TensorFlow}{}{August 2017 - Present}
-    \item Contributing to improving the \underline{3D Convolutional Neural Network} that identifies
-    locations of nodules in scans;
-  \item Contributing to improving the \underline{3D Convolutional Neural Network} to find the
-    boundaries of nodules in scans.
-  \end{rSubsection}
+  % \begin{rSubsection}{Being Involved in Building an Open Source Software to
+      % Detect Lung Cancer $|$ Python, TensorFlow}{}{August 2017 - Present}
+    % \item Contributing to improving the \underline{3D Convolutional Neural Network} that identifies
+    % locations of nodules in scans;
+  % \item Contributing to improving the \underline{3D Convolutional Neural Network} to find the
+    % boundaries of nodules in scans.
+  % \end{rSubsection}
 
-  \begin{rSubsection}{Developing a R Package for Big Data Analysis $|$ R \&
-    Rcpp}{}{December 2016 - Present}
-  \item Implementing following algorithms in the package: Stochastic gradient
-    descent using line search and quasi-Newton methods to determine step size
-    {$\cdot$} The lasso {$\cdot$} The proximal gradient method {$\cdot$}
-    Laplacian smoothing solved by sparse Cholesky/LU, the Gauss-Seidel method,
-    the Jacobi iterative method, and conjugate gradient method {$\cdot$} Graph
-    fused lasso solved by Alternating Direction Method of Multipliers (ADMM)
-    {$\cdot$} Sparse matrix factorization.
-  \end{rSubsection}
+  % \begin{rSubsection}{Developing a R Package for Big Data Analysis $|$ R \&
+    % Rcpp}{}{December 2016 - Present}
+  % \item Implementing following algorithms in the package: Stochastic gradient
+    % descent using line search and quasi-Newton methods to determine step size
+    % {$\cdot$} The lasso {$\cdot$} The proximal gradient method {$\cdot$}
+    % Laplacian smoothing solved by sparse Cholesky/LU, the Gauss-Seidel method,
+    % the Jacobi iterative method, and conjugate gradient method {$\cdot$} Graph
+    % fused lasso solved by Alternating Direction Method of Multipliers (ADMM)
+    % {$\cdot$} Sparse matrix factorization.
+  % \end{rSubsection}
 
   \begin{rSubsection}{Predicted the Direction of Exchange-Traded Fund
     (ETF) movement $|$ Python}{}{April 2017 - May 2017}
@@ -213,14 +234,12 @@ Wuhan, China} \hfill {Grad. June 2011}
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-  Programming & Fluency in Python(NumPy, SciPy, pandas, scikit-learn),
-  R, Git {$\cdot$} Familiar with MATLAB, Linux, LaTex {$\cdot$}\\
-  & Experience in SQL, Hadoop, Spark, TensorFlow, C++ \\
-  Machine Learning & Deep Neural Network {$\cdot$} Regression with regularization {$\cdot$}
-  Support Vector Machine {$\cdot$} Random Forests {$\cdot$} Hidden\\
-  & Markov Model {$\cdot$} Clustering {$\cdot$} Time series and dynamic
-  models {$\cdot$} Frequent Pattern Mining {$\cdot$} Natural\\
-  & Language Processing {$\cdot$} Image Processing \\
+  Programming & Fluency in Python(NumPy, SciPy, pandas, scikit-learn), Spark,
+  SQL, R, Git {$\cdot$} Experience in Hadoop,\\
+  & TensorFlow, C++ \\
+  Machine Learning & Rule-based models(GBM, RF etc) {$\cdot$} Regression
+  {$\cdot$} Neural networks(GCN, CNN, RNN etc) {$\cdot$} Other supervised\\
+  &  models(SVM etc) {$\cdot$} Clustering {$\cdot$}  Time series models {$\cdot$} Natural Language Processing {$\cdot$} Image Processing\\
 \end{tabular}
 \end{rSection}
 
